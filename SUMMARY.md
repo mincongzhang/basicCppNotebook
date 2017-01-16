@@ -1,9 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
-   * 2
-   * Second
-* Second Chapter
-   * 3
+* [C++基础](chapter1.md)
+    * [2](2.md)
+    * [Second](second.md)
+* [Second Chapter](second-chapter.md)
+    * 3
 
