@@ -2,7 +2,7 @@
 
 ## 引用：
 
-引用就像变量的别名，你对引用的操作与对变量直接操作完全一样。\(reference is like a alias of origin variable\)
+1.引用就像变量的别名，你对引用的操作与对变量直接操作完全一样。\(reference is like a alias of origin variable\)
 
 \(1\)必须初始化成引用某个变量
 
@@ -10,43 +10,30 @@
 
 \(3\)只能引用**变量**
 
-1. 两个例子
 
-\(1\)
+2.两个例子
 
-void swap\(int \*a,int \*b\) //获得指针\(个人理解\)
-
-{
+\(1\)指针
 
 ```
-int tmp; 
-
-tmp = \*a;\*a = \*b;\*b = tmp;
+ void swap(int *a,int *b) //获得指针(个人理解)
+ { 
+	int tmp; 
+	tmp = *a;*a = *b;*b = tmp; 
+ } 
+ int n1,n2; 
+ swap(&n1,&n2);  //传地址(个人理解)
 ```
 
-}
-
-int n1,n2;
-
-swap\(&n1,&n2\);  //传地址\(个人理解\)
-
-\(2\)
-
-void swap\(int &a,int &b\)  //直接传引用
-
-{
+\(2\)引用
 
 ```
-int tmp; 
-
-tmp = a; a = b; b = tmp;
+ void swap(int &a,int &b)  //直接传引用
+ { 
+	int tmp; 
+	tmp = a; a = b; b = tmp; 
+ } 
+int n1,n2; 
+swap(n1,n2); 
 ```
-
-}
-
-int n1,n2;
-
-swap\(n1,n2\);
-
-
 
