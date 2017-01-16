@@ -21,7 +21,7 @@ void swap\(int \*a,int \*b\) //获得指针\(个人理解\)
 ```
 int tmp; 
 
-tmp = \*a;\*a = \*b;\*b = tmp; 
+tmp = \*a;\*a = \*b;\*b = tmp;
 ```
 
 }
@@ -30,11 +30,7 @@ int n1,n2;
 
 swap\(&n1,&n2\);  //传地址\(个人理解\)
 
-
-
 \(2\)
-
-\`\`\`
 
 void swap\(int &a,int &b\)  //直接传引用
 
@@ -43,7 +39,7 @@ void swap\(int &a,int &b\)  //直接传引用
 ```
 int tmp; 
 
-tmp = a; a = b; b = tmp; 
+tmp = a; a = b; b = tmp;
 ```
 
 }
@@ -52,5 +48,5 @@ int n1,n2;
 
 swap\(n1,n2\);
 
-\`\`\`
+
 
