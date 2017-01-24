@@ -6,6 +6,7 @@
     * [数组和动态内存分配\(完成\)](指针和数组.md)
     * [堆和栈\(完成\)](second.md)
     * [位运算](位运算.md)
+    * 字符串
 * [Second Chapter](second-chapter.md)
     * [3](3.md)
 
