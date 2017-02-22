@@ -1,4 +1,4 @@
-## 内联成员函数\(Inline\)和重载成员函数\(overload\)
+## 内联成员函数\(Inline\)和重载成员函数\(Overload\)
 
 1.内联成员函数  
 \(1\)inline+成员函数  
