@@ -1,12 +1,3 @@
----
-layout: post
-title: Practice on Programming笔记（第七周：模板,string类）
-category: Cpp基础
-description: 函数模板和类模板
-tags: ["C++"]
----
-
-
 ### 泛型程序设计(generic programming)
 1.算法实现时不指定具体要操作的数据的类型
 
