@@ -23,7 +23,5 @@
   * [模板template\(完成\)](template.md)
   * [functor](functor.md)
   * [singleton](singleton.md)
-* [第四章: 算法](算法.md)
-  * [复杂度计算](复杂度计算.md)
 * [Debug](debug.md)
 
