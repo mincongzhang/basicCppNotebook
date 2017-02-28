@@ -23,5 +23,6 @@
   * [模板template\(完成\)](template.md)
   * [functor](functor.md)
   * [singleton](singleton.md)
+  * [Template Specialization](template-specialization.md)
 * [Debug](debug.md)
 
