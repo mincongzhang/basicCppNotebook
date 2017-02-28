@@ -24,5 +24,6 @@
   * [functor](functor.md)
   * [singleton](singleton.md)
   * [Template Specialization](template-specialization.md)
+  * [template\_typename\_disambiguator](template_typename_disambiguator.md)
 * [Debug](debug.md)
 
