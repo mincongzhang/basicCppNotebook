@@ -31,6 +31,31 @@ struct CCar{
 }
 
 void SetPrice(struct CCar * this, int p){
+    this->price = p;
+}
 
+int main(){
+    struct CCar car;
+    SetPrice(CCar & car, 2000);
+    return 0;
+}
+```
+
+### this的作用
+
+```
+class A{
+    int i;
+    public:
+    void Hello(){
+        cout<<"hello"<<endl;
+    }
+};
+
+int main(){
+    A * p = NULL;
+    p->Hello();//结果如何? 是可以跑的
+    //翻译成C语言是 
+    //Hello(A * this){cout<<"hello"<<endl;}
 }
 ```
