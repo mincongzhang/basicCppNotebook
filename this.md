@@ -12,6 +12,7 @@
 类(class)到C的结构体(struct)的翻译
 
 ```
+//C++
 class CCar{
     public:
     int price;
@@ -20,5 +21,16 @@ class CCar{
 
 int main(){
     CCar car;
+    car.SetPrice(200);
+    return 0;
+}
+
+//C
+struct CCar{
+    int price;
+}
+
+void SetPrice(struct CCar * this, int p){
+
 }
 ```
