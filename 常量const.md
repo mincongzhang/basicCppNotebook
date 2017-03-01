@@ -42,11 +42,29 @@ return 0;
 
 ### 6.常指针
 
-(1)const int * 和 const int & 一样都不能改变变量的内容
+\(1\)const int \* 和 const int & 一样都不能改变变量的内容
 
 ```
 const int * intPtr1; // Declares a pointer whose contents cannot be changed.
 int * const intPtr2; // Declares a pointer that cannot be changed.
 ```
+
+### 7.很有意思的一个const function问题
+
+以下是编译不过的, 因为const function针对的不是member function, 但为什么编译不过呢?  
+查到的解释可能是member function的const处理的是"this"对象, 然而这样的static function没有"this", 所以编译器不知道哪个不能改变.
+
+```
+void f const (int & sth){
+    sth = 2;    
+}
+
+int main()
+{
+    int a = 2;
+    f(a);
+}
+```
+
 
 
