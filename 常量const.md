@@ -66,5 +66,7 @@ int main()
 }
 ```
 
+What is meant by const at the end of a function?
 
+It means that the **member** function can be called on a const object \(or via a reference-or-pointer-to-const\), and that the member function cannot modify data members \(unless they're marked mutable \).
 
