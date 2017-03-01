@@ -5,11 +5,9 @@
 静态成员函数中不能使用this指针，因为静态成员函数并不具体作用于某个对象  
 因此，静态成员函数的真实的参数的个数，就是程序中写出的参数个数
 
-
-
 ### C++到C的翻译
 
-类(class)到C的结构体(struct)的翻译
+类\(class\)到C的结构体\(struct\)的翻译
 
 ```
 //C++
@@ -45,7 +43,6 @@ int main(){
 
 ```
 class A{
-    int i;
     public:
     void Hello(){
         cout<<"hello"<<endl;
@@ -59,3 +56,6 @@ int main(){
     //Hello(A * this){cout<<"hello"<<endl;}
 }
 ```
+
+
+
