@@ -10,3 +10,15 @@
 ### C++到C的翻译
 
 类(class)到C的结构体(struct)的翻译
+
+```
+class CCar{
+    public:
+    int price;
+    void SetPrice(int p);
+};
+
+int main(){
+    CCar car;
+}
+```
