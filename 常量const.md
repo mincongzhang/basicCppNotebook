@@ -52,6 +52,7 @@ int * const intPtr2; // Declares a pointer that cannot be changed.
 ### 7.很有意思的一个const function问题
 
 以下是编译不过的, 因为const function针对的不是member function, 但为什么编译不过呢?  
+
 查到的解释可能是member function的const处理的是"this"对象, 然而这样的static function没有"this", 所以编译器不知道哪个不能改变.
 
 ```
@@ -70,3 +71,15 @@ What is meant by const at the end of a function?
 
 It means that the **member** function can be called on a const object \(or via a reference-or-pointer-to-const\), and that the member function cannot modify data members \(unless they're marked mutable \).
 
+参考this指针里对成员函数的处理
+
+```
+class A{
+    void const func();
+};
+
+//就等于
+main(){
+    struct A
+}
+```
