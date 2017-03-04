@@ -79,7 +79,12 @@ class A{
 };
 
 //就等于
+void func(const struct A * this){
+//...
+};
+
 main(){
-    struct A
+    struct A;
+    func(& A);
 }
 ```
