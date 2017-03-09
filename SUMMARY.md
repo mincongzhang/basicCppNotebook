@@ -25,8 +25,10 @@
   * [singleton](singleton.md)
   * [Template Specialization](template-specialization.md)
   * [template\_typename\_disambiguator](template_typename_disambiguator.md)
-  * [VirtualFunctionAndConstructor](virtualfunctionandconstructor.md)
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
+* [第三章:虚函数](第三章:虚函数.md)
+* [VirtualFunctionAndConstructor](virtualfunctionandconstructor.md)
+* [VirtualBaseClass](virtualbaseclass.md)
 
