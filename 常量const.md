@@ -31,6 +31,28 @@ return 0;
 }//Dev C++中要为Sample类编写无参构造函数，visual 2010中不要  
 ```
 
+```
+#include <iostream>
+#include <string>
+
+class A{
+    private:
+    int m_a;
+    public:
+    int func(int a) const {
+        a = 1; //valid, it's not member var
+        a++;   //valid, it's not member var
+        //m_a=a; no, member var cannot be modified
+        return a;
+    }    
+};
+
+int main(){
+  A o_a;
+  std::cout<<o_a.func(2);
+}
+```
+
 ### 4.常量成员函数的重载
 
 \(1\)两个成员函数，名字和参数表都一样，但是一个是const，一个不是，算重载
