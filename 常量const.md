@@ -53,25 +53,7 @@ int main(){
 }
 ```
 
-### 4.常量成员函数的重载
-
-\(1\)两个成员函数，名字和参数表都一样，但是一个是const，一个不是，算重载
-
-### 5.常引用
-
-\(1\)引用前面加const，不能修改引用的变量  
-\(2\)对象作为函数的参数时，生成该参数需要调用复制构造函数，效率低； 用指针做参数代码难看，所以用常引用
-
-### 6.常指针
-
-\(1\)const int \* 和 const int & 一样都不能改变变量的内容
-
-```
-const int * intPtr1; // Declares a pointer whose contents cannot be changed.
-int * const intPtr2; // Declares a pointer that cannot be changed.
-```
-
-### 7.很有意思的一个const function问题
+### 4.很有意思的一个const function问题
 
 以下是编译不过的, 因为const function针对的不是member function, 但为什么编译不过呢?
 
@@ -112,4 +94,26 @@ main(){
 ```
 
 可以看出这样的函数const只能针对对象里的member vars, 而不能针对其他的变量.
+
+### 5.常量成员函数的重载
+
+\(1\)两个成员函数，名字和参数表都一样，但是一个是const，一个不是，算重载
+
+### 6.常引用
+
+\(1\)引用前面加const，不能修改引用的变量  
+\(2\)对象作为函数的参数时，生成该参数需要调用复制构造函数，效率低； 用指针做参数代码难看，所以用常引用
+
+### 7.常指针
+
+\(1\)const int \* 和 const int & 一样都不能改变变量的内容
+
+```
+const int * intPtr1; // Declares a pointer whose contents cannot be changed.
+int * const intPtr2; // Declares a pointer that cannot be changed.
+```
+
+### 
+
+
 
