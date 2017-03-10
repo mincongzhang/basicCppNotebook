@@ -29,6 +29,8 @@
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
 * [第三章:虚函数](第三章:虚函数.md)
-* [VirtualFunctionAndConstructor](virtualfunctionandconstructor.md)
-* [VirtualBaseClass](virtualbaseclass.md)
+  * [VirtualFunctionAndConstructor](virtualfunctionandconstructor.md)
+  * [VirtualBaseClass](virtualbaseclass.md)
+* [第四章:智能指针](第四章:智能指针.md)
+  * [BoostSmartPointer](boostsmartpointer.md)
 
