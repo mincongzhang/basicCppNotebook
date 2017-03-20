@@ -1,4 +1,4 @@
-latency, benchmark\(measure the latency\)
+
 
 map/set/unordered\* insert can return an iterator
 
@@ -15,13 +15,13 @@ condition variable, notify all, notify one, consumer
 destructor, throw expection? at the beginning surely not good  
 what about at the end? not good as well. If you throw 2 exceptions, program will be killed
 
-
-
 Design pattern:  
 S.O.L.I.D  
 Adapter pattern
 
 
+
+latency, benchmark\(measure the latency\)
 
 futures, FX, mainly equities
 
