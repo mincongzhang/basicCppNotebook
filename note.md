@@ -19,3 +19,4 @@ futures, FX, mainly equities
 
 Design pattern:
 S.O.L.I.D
+Adapter pattern
