@@ -8,6 +8,8 @@ atomic/lock free
 
 IPC: ctrl+c, signal, shared memory, socket
 
+IPC methods include pipes and named pipes; message queueing;semaphores; shared memory; and sockets.
+
 condition variable, notify all, notify one, consumer
 
 destructor, throw expection? at the beginning surely not good  
