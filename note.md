@@ -1,5 +1,3 @@
-
-
 map/set/unordered\* insert can return an iterator
 
 Assembly language: pointer, reference which is more efficient
@@ -8,7 +6,7 @@ volatile
 
 atomic/lock free
 
-IPC: ctrl+c, signal, shared memory
+IPC: ctrl+c, signal, shared memory, socket
 
 condition variable, notify all, notify one, consumer
 
@@ -47,8 +45,6 @@ int main() {
 Design pattern:  
 S.O.L.I.D  
 Adapter pattern
-
-
 
 latency, benchmark\(measure the latency\)
 
