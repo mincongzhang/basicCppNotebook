@@ -10,7 +10,7 @@ IPC: ctrl+c, signal, shared memory, socket
 
 IPC methods include pipes and named pipes; message queueing;semaphores; shared memory; and sockets.
 
-condition variable, notify all, notify one, consumer
+condition variable, notify all, notify one, consumer/producer,deadlock/race condition
 
 destructor, throw expection? at the beginning surely not good  
 what about at the end? not good as well. If you throw 2 exceptions, program will be killed
