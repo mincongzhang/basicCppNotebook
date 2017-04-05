@@ -12,6 +12,8 @@ IPC methods include pipes and named pipes; message queueing;semaphores; shared m
 
 condition variable, notify all, notify one, consumer/producer,deadlock/race condition
 
+https://en.wikipedia.org/wiki/Monitor\_\(synchronization\) 
+
 destructor, throw expection? at the beginning surely not good  
 what about at the end? not good as well. If you throw 2 exceptions, program will be killed
 
