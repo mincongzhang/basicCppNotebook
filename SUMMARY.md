@@ -37,4 +37,5 @@
 * [MISC](misc.md)
   * DesignPattern
   * Multithreading
+  * [thoughts](misc/thoughts.md)
 
