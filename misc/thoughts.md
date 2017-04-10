@@ -1,22 +1,18 @@
-MacQ:
+**MacQ:**
 
 1.line function
 
-2.remove empty char from a string 
+2.remove empty char from a string
 
+**SqPoint:**
 
-
-SqPoint:
-
-1.find duplicated int 
+1.find duplicated int
 
 \(1\)set \(2\)math \(3\)manual hash
 
 2.multithreading
 
-
-
-Schat:
+**Schat:**
 
 1.pascal
 
