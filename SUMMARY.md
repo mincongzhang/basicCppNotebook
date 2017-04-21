@@ -39,5 +39,6 @@
   * [thoughts](misc/thoughts.md)
   * [placement\_new](misc/placementnew.md)
   * [Message queue](misc/message-queue.md)
+  * [Publish–subscribe pattern](misc/publishsubscribe-pattern.md)
 * [note](note.md)
 
