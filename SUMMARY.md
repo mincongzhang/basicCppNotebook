@@ -38,5 +38,6 @@
   * [Multithreading](misc/multithreading.md)
   * [thoughts](misc/thoughts.md)
   * [placement\_new](misc/placementnew.md)
+  * [Message queue](misc/message-queue.md)
 * [note](note.md)
 
