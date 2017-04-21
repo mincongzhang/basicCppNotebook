@@ -34,8 +34,9 @@
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
 * [MISC](misc.md)
-  * DesignPattern
-  * Multithreading
+  * [DesignPattern](misc/designpattern.md)
+  * [Multithreading](misc/multithreading.md)
   * [thoughts](misc/thoughts.md)
+  * [placement\_new](misc/placementnew.md)
 * [note](note.md)
 
