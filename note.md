@@ -105,7 +105,8 @@ public:
 
     void updateCache(int index, int value) const {
         m_cache[index] = value;
-        //int * const m_cache;
+        //int * const m_cache; 
+        //pointer unchanged, but content changed
     }
 };
 
