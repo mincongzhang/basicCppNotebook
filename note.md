@@ -100,7 +100,7 @@ class A{
       m_cache = new int [100];
       //int * const m_cache;
     }
-}
+};
 
 const int * const value;
 const int * value;
