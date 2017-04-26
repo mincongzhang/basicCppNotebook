@@ -98,6 +98,7 @@ class A{
     int * m_cache;
     void initCache() const {
       m_cache = new int [100];
+      //int * const m_cache;
     }
 }
 
