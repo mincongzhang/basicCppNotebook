@@ -96,11 +96,19 @@ class A{
 
 class A{
     int * m_cache;
-    void initCache() const {
-      m_cache = new int [100];
-      //int * const m_cache;
+    
+public:
+    void initCache(){
+        m_cache = new int [100];
+        //int * const m_cache;
+    }
+
+    void updateCache(int index, int value) const {
+        m_cache[index] = value;
+        //int * const m_cache;
     }
 };
+
 
 const int * const value;
 const int * value;
