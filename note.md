@@ -62,8 +62,8 @@ latency, benchmark\(measure the latency\)
 
 futures, FX, mainly equities
 
-
 Mutable
+
 ```
 int getValue() const {
   if(compute){
@@ -78,23 +78,34 @@ int getValue() const {
 ```
 
 const
+
 ```
-class{
+class A{
   int m_value;
   int myFun() const {
   }
 };
 //that means add const to mem: const int m_value;
 
-class{
+class A{
   int * m_value;
   int myFun() const {
   }
 };
 //that means add const to mem: int * const m_value;
 
+class A{
+    int * m_cache;
+    void initCache() const {
+      m_cache = new int [100];
+    }
+}
+
 const int * const value;
 const int * value;
 int * const value;
-const * int value;  
+const * int value;
 ```
+
+
+
