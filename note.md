@@ -65,6 +65,7 @@ futures, FX, mainly equities
 Mutable
 
 ```
+mutable int *　m_value；
 int getValue() const {
   if(compute){
     m_value = doSomeComputation();//a static function within class
