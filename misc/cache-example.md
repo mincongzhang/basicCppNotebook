@@ -4,6 +4,7 @@ private:
     bool m_compute;
     int * m_cache;
     mutable int m_value;
+    friend static int computeValue();
 
 public:
     void initCache() {
@@ -20,7 +21,12 @@ public:
     }
     
     int getValue() const {
+        if(m_compute){
+            m_value = computeValue();
+            return m_value;
+        }
         
+        return m_value;        
     }
 
 };
