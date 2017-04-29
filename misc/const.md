@@ -14,14 +14,29 @@ const int * const == int const * const
 ```
 
 ##### const int \* (int const \*) - pointer to const int
+The pointer can be changed:
 
 ```
     const int a = 1;
     const int * ptr = &a;
     std::cout<<*ptr<<std::endl;
+    
     const int b = 2;
     ptr = &b;
     std::cout<<*ptr<<std::endl;
 ```
 
+#### int * const - const pointer to int
+
+```
+    int a = 1;
+    int * const ptr = &a;
+    std::cout<<*ptr<<std::endl;
+    
+    //int b = 2;
+    //ptr = &b;
+
+    a = 3;
+    std::cout<<*ptr<<std::endl;
+```
 
