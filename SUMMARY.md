@@ -42,5 +42,6 @@
   * [Publish–subscribe pattern](misc/publishsubscribe-pattern.md)
   * [Pointer](misc/pointer.md)
   * [key words](misc/key-words.md)
+  * [Cache Example](misc/cache-example.md)
 * [note](note.md)
 
