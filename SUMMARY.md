@@ -43,5 +43,6 @@
   * [Pointer](misc/pointer.md)
   * [key words](misc/key-words.md)
   * [Cache Example](misc/cache-example.md)
+  * const
 * [note](note.md)
 
