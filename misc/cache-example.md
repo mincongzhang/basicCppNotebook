@@ -8,6 +8,7 @@ private:
 
 public:
     void initCache() {
+        if(m_cache) delete [] m_cache;
         m_cache = new int [MAX_SIZE];        
     }
     
