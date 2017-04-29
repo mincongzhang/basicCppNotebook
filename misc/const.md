@@ -13,7 +13,7 @@ const int * == int const *
 const int * const == int const * const
 ```
 
-##### const int * (int const *) - pointer to const int
+##### const int \* (int const \*) - pointer to const int
 
 ```
     const int a = 1;
