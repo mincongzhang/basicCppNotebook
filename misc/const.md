@@ -40,3 +40,20 @@ The pointer can be changed:
     std::cout<<*ptr<<std::endl;
 ```
 
+#### const member function
+
+```
+class Cache {
+private:
+    int * m_cache;
+public:
+    Cache(){
+        m_cache = new int [100];
+    }
+    
+    ~Cache(){
+        delete [] m_cache;
+    }
+};
+```
+
