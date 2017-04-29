@@ -18,10 +18,10 @@ const int * const == int const * const
 ```
     const int a = 1;
     const int * ptr = &a;
-    std::cout<<*ptr;
+    std::cout<<*ptr<<std::endl;
     const int b = 2;
     ptr = &b;
-    std::cout<<*ptr;
+    std::cout<<*ptr<<std::endl;
 ```
 
 
