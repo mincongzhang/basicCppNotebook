@@ -2,8 +2,8 @@
 class Cache {
 private:
     bool m_compute;
-    mutable int * m_cache;
-    int m_value;
+    int * m_cache;
+    mutable int m_value;
 
 public:
     void initCache() {
@@ -19,7 +19,9 @@ public:
         return false;
     }
     
-    getValue
+    int getValue() const {
+        
+    }
 
 };
 ```
