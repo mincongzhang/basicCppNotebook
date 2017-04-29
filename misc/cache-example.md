@@ -11,9 +11,9 @@ public:
         m_compute = c.m_compute;
         m_value = c.m_value;
         initCache();
-        memcpy(c.m_cache,m_cache,MAX_SIZE*sizeof(int))
+        memcpy(c.m_cache,m_cache,MAX_SIZE*sizeof(int));
     }
-    
+
     void initCache() {
         if(m_cache) delete [] m_cache;
         m_cache = new int [MAX_SIZE];        
