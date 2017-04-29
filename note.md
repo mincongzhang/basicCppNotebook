@@ -1,7 +1,3 @@
-
-
-volatile
-
 destructor, throw expection? at the beginning surely not good  
 what about at the end? not good as well. If you throw 2 exceptions, program will be killed
 
@@ -34,9 +30,7 @@ int main() {
 }
 ```
 
-latency, benchmark\(measure the latency\)
 
-futures, FX, mainly equities
 
 Mutable
 
