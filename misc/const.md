@@ -1,9 +1,9 @@
 
 
-#### const int*, const int * const, and int const *
+### const int*, const int * const, and int const *
 
 ```
-int* - pointer to int
+int * - pointer to int
 int const * - pointer to const int
 int * const - const pointer to int
 int const * const - const pointer to const int
