@@ -5,4 +5,5 @@ Assembly language: pointer, reference which is more efficient
 
 
 delete null pointer?
+http://stackoverflow.com/questions/4190703/is-it-safe-to-delete-a-null-pointer
 
