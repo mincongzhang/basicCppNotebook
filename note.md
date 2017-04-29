@@ -1,26 +1,8 @@
-map/set/unordered\* insert can return an iterator
-
 Assembly language: pointer, reference which is more efficient
 
+[http://stackoverflow.com/questions/6167285/may-a-reference-be-more-efficient-than-a-pointer](http://stackoverflow.com/questions/6167285/may-a-reference-be-more-efficient-than-a-pointer)
+
 volatile
-
-atomic/lock free
-
-IPC: ctrl+c, signal, shared memory, socket
-
-IPC methods include pipes and named pipes; message queueing;semaphores; shared memory; and sockets.
-
-condition variable, notify all, notify one, consumer/producer,deadlock/race condition
-
-[https://en.wikipedia.org/wiki/Monitor\_\(synchronization\](https://en.wikipedia.org/wiki/Monitor_%28synchronization%29\)
-
-notify\_all vs notify one:
-
-[http://stackoverflow.com/questions/9015748/whats-the-difference-between-notify-all-and-notify-one-of-stdcondition-va](http://stackoverflow.com/questions/9015748/whats-the-difference-between-notify-all-and-notify-one-of-stdcondition-va)
-
-join:
-
-[http://stackoverflow.com/questions/15956231/what-does-this-thread-join-code-mean](http://stackoverflow.com/questions/15956231/what-does-this-thread-join-code-mean)
 
 destructor, throw expection? at the beginning surely not good  
 what about at the end? not good as well. If you throw 2 exceptions, program will be killed
@@ -54,10 +36,6 @@ int main() {
 }
 ```
 
-Design pattern:  
-S.O.L.I.D  
-Adapter pattern
-
 latency, benchmark\(measure the latency\)
 
 futures, FX, mainly equities
@@ -65,7 +43,7 @@ futures, FX, mainly equities
 Mutable
 
 ```
-mutable int *　m_value；
+mutable int *　m_value;
 int getValue() const {
   if(compute){
     m_value = doSomeComputation();//a static function within class
@@ -97,7 +75,7 @@ class A{
 
 class A{
     int * m_cache;
-    
+
 public:
     void initCache(){
         m_cache = new int [100];
