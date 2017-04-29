@@ -67,9 +67,12 @@ public:
 };
 ```
 
-In the example, const member function in C stype should be like:
+In the example, const member function in C style should be like:
 
 ```
-    update(const Cache * this, int index,int value)
+    bool update(const Cache * this, int index,int value){
+        //...
+    }
 ```
 
+//and m_cache should be run like, `int * const m_cache;`, it's "const pointer to int", and the value can be changed, so no compile error
