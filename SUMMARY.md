@@ -40,5 +40,6 @@
   * [placement\_new](misc/placementnew.md)
   * [Message queue](misc/message-queue.md)
   * [Publish–subscribe pattern](misc/publishsubscribe-pattern.md)
+  * [Pointer](misc/pointer.md)
 * [note](note.md)
 
