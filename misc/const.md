@@ -1,4 +1,4 @@
-### const int_, const int _ const, and int const \*
+### const int \*, const int \* const, and int const \*
 
 ##### The "Clockwise/Spiral Rule": Read from right to left
 
@@ -54,6 +54,22 @@ public:
     ~Cache(){
         delete [] m_cache;
     }
+    
+    bool update(int index,int value) const {
+        if(index <= 100){
+            m_cache[index] = value;
+            std::cout<<"index:["<<index<<"] value updated to ["<<m_cache[index]<<"]"<<std::endl;
+            return true;
+        } 
+        
+        return false;
+    }
 };
+```
+
+In the example, const member function in C stype should be like:
+
+```
+    update(const Cache * this, int index,int value)
 ```
 
