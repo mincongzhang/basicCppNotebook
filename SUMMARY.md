@@ -21,7 +21,7 @@
   * [运算符重载\(完成\)](7.md)
   * [继承与派生\(完成\)](继承与派生.md)
   * [模板template\(完成\)](template.md)
-  * [functor](functor.md)
+  * [functor and function pointer](functor.md)
   * [singleton](singleton.md)
   * [Template Specialization](template-specialization.md)
   * [template\_typename\_disambiguator](template_typename_disambiguator.md)
