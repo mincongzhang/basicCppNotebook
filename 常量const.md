@@ -28,7 +28,7 @@ o.value = 100; //error
 o.func(); //error  
 o.GetValue();//OK  
 return 0;  
-}//Dev C++中要为Sample类编写无参构造函数，visual 2010中不要  
+}//Dev C++中要为Sample类编写无参构造函数，visual 2010中不要
 ```
 
 ```
