@@ -81,7 +81,9 @@ In the example, const member function in C style should be like:
 #### const Cache c???
 
 ```
-const Cache c;
-c.update(2,2);
+int main(){
+    const Cache c;
+    c.update(1,1);
+}
 ```
 
