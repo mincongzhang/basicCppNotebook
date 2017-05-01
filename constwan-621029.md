@@ -78,7 +78,7 @@ In the example, const member function in C style should be like:
 
 **and m\_cache should be run like **`int * const m_cache;`**, it's a "const pointer to int", and the value can be changed, so no compile error**
 
-#### const Cache c???
+#### NOTE: const Cache would be confusing
 
 ```
 int main(){
