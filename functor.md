@@ -1,3 +1,5 @@
+### Functor 函数算子
+
 ```
 struct Comparator
 {
@@ -15,4 +17,6 @@ std::priority_queue<Record, std::vector<Record>, Comparator> myQ;
 
 
 http://stackoverflow.com/questions/356950/c-functors-and-their-uses
+
+### function pointer 函数指针
 
