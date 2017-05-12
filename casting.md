@@ -20,3 +20,7 @@ reinterpret\_cast
 
 Reinterpret cast simply casts one type bitwise to another. Any pointer or integral type can be casted to any other with reinterpret cast, easily allowing for misuse. For instance, with reinterpret cast one might, unsafely, cast an integer pointer to a string pointer.
 
+
+
+https://en.wikibooks.org/wiki/C%2B%2B\_Programming/Programming\_Languages/C%2B%2B/Code/Statements/Variables/Type\_Casting
+
