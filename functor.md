@@ -27,7 +27,7 @@ void qsort(void *base, size_t nmemb, size_t size,
 //compare function pointer
 int int_sorter( const void *first_arg, const void *second_arg )
 {
-    int first = *(int*)first_arg;
+    int first = *(int*)first_arg; //cast (void *) to (int *) and dereference
     int second = *(int*)second_arg;
     if ( first < second )
     {
