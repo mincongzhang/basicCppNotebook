@@ -33,6 +33,7 @@
   * [VirtualBaseClass](virtualbaseclass.md)
 * [第四章: 智能指针](第四章:智能指针.md)
   * [BoostSmartPointer](boostsmartpointer.md)
+  * [Why use weak pointer?](why-use-weak-pointer.md)
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
