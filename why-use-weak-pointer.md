@@ -20,7 +20,7 @@ struct A {
 };
 
 struct B {
-  std::shared_ptr<A> a; //Make this a weak pointer
+  std::shared_ptr<A> a; //Make this a weak pointer, std::weak_ptr<A> a;
   ~B() { std::cout << "~B()\n"; }  
 };
 
