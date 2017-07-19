@@ -31,6 +31,7 @@
   * [多态和虚函数\(完成\)](多态和虚函数.md)
   * [VirtualFunctionAndConstructor\(完成\)](virtualfunctionandconstructor.md)
   * [VirtualBaseClass](virtualbaseclass.md)
+  * [VirtualFunction with const](virtualfunction-with-const.md)
 * [第四章: 智能指针](第四章:智能指针.md)
   * [BoostSmartPointer](boostsmartpointer.md)
   * [Why use weak pointer?](why-use-weak-pointer.md)
