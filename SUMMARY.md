@@ -53,4 +53,6 @@
   * [const](misc/const.md)
   * [Map vs UnorderedMap](misc/map-vs-unorderedmap.md)
 * [note](note.md)
+* [第五章: Design Pattern](design-pattern.md)
+  * Data Access Object\(DAO\)
 
