@@ -35,6 +35,11 @@ To ensure that resources are always released in face of an exception but __not w
 
 To provide basic __exception safety__ guarantee
 
+##### Motivation
+
+Resource Acquisition is Initialization (RAII) idiom allows us to acquire resources in the constructor and release them in the destructor when scope ends successfully or due to an exception. It will always release resources. This is not very flexible. Sometime we don't want to release resources if no exception is thrown but we do want to release them if exception is thrown.
+
+Solution and Sample Code[edit]
 
 
 https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Scope_Guard
