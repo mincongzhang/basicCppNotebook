@@ -39,7 +39,35 @@ To provide basic __exception safety__ guarantee
 
 Resource Acquisition is Initialization (RAII) idiom allows us to acquire resources in the constructor and release them in the destructor when scope ends successfully or due to an exception. It will always release resources. This is not very flexible. Sometime __we don't want to release resources if no exception is thrown__ but we do want to release them if exception is thrown.
 
-Solution and Sample Code[edit]
+##### Example
 
+```
+class ScopeGuard
+{
+public:
+  ScopeGuard () 
+   : engaged_ (true) 
+  { /* Acquire resources here. */ }
+  
+  ~ScopeGuard ()  
+  { 
+    if (engaged_) 
+     { /* Release resources here. */} 
+  }
+  void release () 
+  { 
+     engaged_ = false; 
+     /* Resources no longer be released */ 
+  }
+private:
+  bool engaged_;
+};
+void some_init_function ()
+{
+  ScopeGuard guard;
+  // ...... Something may throw here. If it does we release resources.
+  guard.release (); // Resources will not be released in normal execution.
+}
+```
 
 https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Scope_Guard
