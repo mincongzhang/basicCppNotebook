@@ -37,7 +37,7 @@ To provide basic __exception safety__ guarantee
 
 ##### Motivation
 
-Resource Acquisition is Initialization (RAII) idiom allows us to acquire resources in the constructor and release them in the destructor when scope ends successfully or due to an exception. It will always release resources. This is not very flexible. Sometime we don't want to release resources if no exception is thrown but we do want to release them if exception is thrown.
+Resource Acquisition is Initialization (RAII) idiom allows us to acquire resources in the constructor and release them in the destructor when scope ends successfully or due to an exception. It will always release resources. This is not very flexible. Sometime __we don't want to release resources if no exception is thrown__ but we do want to release them if exception is thrown.
 
 Solution and Sample Code[edit]
 
