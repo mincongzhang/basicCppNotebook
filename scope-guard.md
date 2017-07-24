@@ -28,6 +28,13 @@ In the first case, what if bar throws an exception? Then, myMutex will never be 
 
 [https://stackoverflow.com/questions/31365013/what-is-scopeguard-in-c](https://stackoverflow.com/questions/31365013/what-is-scopeguard-in-c)
 
-### 
+### Scope Guard Purpose
+
+##### Intent
+To ensure that resources are always released in face of an exception but __not while returning normally__
+
+To provide basic __exception safety__ guarantee
+
+
 
 https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Scope_Guard
