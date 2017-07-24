@@ -27,6 +27,7 @@
   * [singleton](singleton.md)
   * [Template Specialization](template-specialization.md)
   * [template\_typename\_disambiguator](template_typename_disambiguator.md)
+  * [slicing](slicing.md)
 * [第三章: 虚函数](第三章:虚函数.md)
   * [多态和虚函数\(完成\)](多态和虚函数.md)
   * [VirtualFunctionAndConstructor\(完成\)](virtualfunctionandconstructor.md)
