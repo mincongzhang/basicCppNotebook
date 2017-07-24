@@ -1,5 +1,6 @@
-### What is Scope Guard
+## What is Scope Guard
 
+### Example Scope Guard for mutex
 It's more of a design pattern than a particular class. It is a way of aquiring/releasing resources \(such as files, memory, or mutexes\) that is exception safe. unique\_lock in c++11 follows this pattern.
 
 For example, with unique\_lock, instead of writing code like this:
@@ -27,3 +28,6 @@ In the first case, what if bar throws an exception? Then, myMutex will never be 
 
 [https://stackoverflow.com/questions/31365013/what-is-scopeguard-in-c](https://stackoverflow.com/questions/31365013/what-is-scopeguard-in-c)
 
+### 
+
+https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Scope_Guard
