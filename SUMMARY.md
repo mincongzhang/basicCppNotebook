@@ -62,4 +62,5 @@
   * [SOLID: Dependency inversion principle](design-pattern/solid-dependency-inversion-principle.md)
   * [Singleton pattern](design-pattern/singleton-pattern.md)
   * [Factory method pattern](design-pattern/factory-method-pattern.md)
+  * [KISS principle](design-pattern/kiss-principle.md)
 
