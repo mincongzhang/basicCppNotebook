@@ -58,6 +58,6 @@
   * [SOLID: Single responsibility principle](design-pattern/solid-single-responsibility-principle.md)
   * [SOLID: Open/closed principle](design-pattern/solid-openclosed-principle.md)
   * [SOLID: Liskov substitution principle](design-pattern/solid-liskov-substitution-principle.md)
-  * SOLID: Interface segregation principle
+  * [SOLID: Interface segregation principle](design-pattern/solid-interface-segregation-principle.md)
   * SOLID: Dependency inversion principle
 
