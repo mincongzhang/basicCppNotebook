@@ -60,4 +60,6 @@
   * [SOLID: Liskov substitution principle](design-pattern/solid-liskov-substitution-principle.md)
   * [SOLID: Interface segregation principle](design-pattern/solid-interface-segregation-principle.md)
   * [SOLID: Dependency inversion principle](design-pattern/solid-dependency-inversion-principle.md)
+  * [Singleton pattern](design-pattern/singleton-pattern.md)
+  * [Factory method pattern](design-pattern/factory-method-pattern.md)
 
