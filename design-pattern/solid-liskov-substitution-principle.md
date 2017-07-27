@@ -4,4 +4,6 @@
 
 派生类（子类）对象能够替换其基类（超类）对象被使用.
 
-A typical example that violates LSP is a Square class that derives from a Rectangle class, assuming getter and setter methods exist for both width and height. 
+A typical example that violates LSP is a __Square class__ that derives from a __Rectangle class__, assuming getter and setter methods exist for both width and height. 
+
+In some context, setter violate Liskov principle, because the dimensions of a Square cannot (or rather should not) be modified independently
