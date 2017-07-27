@@ -57,7 +57,7 @@
   * Data Access Object\(DAO\)
   * [SOLID: Single responsibility principle](design-pattern/solid-single-responsibility-principle.md)
   * [SOLID: Open/closed principle](design-pattern/solid-openclosed-principle.md)
-  * SOLID: Liskov substitution principle
+  * [SOLID: Liskov substitution principle](design-pattern/solid-liskov-substitution-principle.md)
   * SOLID: Interface segregation principle
   * SOLID: Dependency inversion principle
 
