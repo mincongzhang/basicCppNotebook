@@ -6,4 +6,4 @@
 
 A typical example that violates LSP is a __Square class__ that derives from a __Rectangle class__, assuming getter and setter methods exist for both width and height. 
 
-In some context, setter violate Liskov principle, because the dimensions of a Square cannot (or rather should not) be modified independently
+setter violate Liskov principle in some context, because the dimensions of a Square cannot (or rather should not) be modified independently
