@@ -59,5 +59,5 @@
   * [SOLID: Open/closed principle](design-pattern/solid-openclosed-principle.md)
   * [SOLID: Liskov substitution principle](design-pattern/solid-liskov-substitution-principle.md)
   * [SOLID: Interface segregation principle](design-pattern/solid-interface-segregation-principle.md)
-  * SOLID: Dependency inversion principle
+  * [SOLID: Dependency inversion principle](design-pattern/solid-dependency-inversion-principle.md)
 
