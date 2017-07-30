@@ -52,6 +52,7 @@
   * Explicit
   * placement\_new
   * [RTTI\(Run-time type information\)](di-liu-7ae03a-yi-xie-guan-jian-ci/rtti.md)
+  * volatile
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
