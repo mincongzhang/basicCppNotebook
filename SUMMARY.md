@@ -49,8 +49,8 @@
   * [KISS principle](design-pattern/kiss-principle.md)
 * [第六章: 一些关键词](di-liu-7ae03a-yi-xie-guan-jian-ci.md)
   * Mutable
-  * Explicit
-  * placement\_new
+  * [Explicit](di-liu-7ae03a-yi-xie-guan-jian-ci/explicit.md)
+  * [placement\_new](di-liu-7ae03a-yi-xie-guan-jian-ci/placementnew.md)
   * [RTTI\(Run-time type information\)](di-liu-7ae03a-yi-xie-guan-jian-ci/rtti.md)
   * volatile
 * [Debug](debug.md)
