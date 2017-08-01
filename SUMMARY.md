@@ -9,7 +9,7 @@
   * [内联函数和重载函数\(完成\)](内联函数和重载函数.md)
   * [字符串和char\(完成\)](字符串.md)
   * [Const\(完成\)](constwan-621029.md)
-    * logically const vs bitwise const
+    * [logically const vs bitwise const](constwan-621029/logically-const-vs-bitwise-const.md)
   * [Casting\(完成\)](casting.md)
     * [const\_cast](casting/constcast.md)
   * [Exception\(完成\)](exceptionwan-621029.md)
