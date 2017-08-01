@@ -60,7 +60,7 @@ int main(){
 查到的解释可能是member function的const处理的是"this"对象, 然而这样的static function没有"this", 所以编译器不知道哪个不能改变.
 
 ```
-void f const (int & sth){
+void f(int & sth) const {
     sth = 2;    
 }
 
