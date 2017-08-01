@@ -28,3 +28,5 @@ class MyClass
     }
 };
 ```
+
+https://stackoverflow.com/questions/357600/is-const-cast-safe
