@@ -14,7 +14,7 @@ Dynamic cast is used to convert pointers and references at run-time, generally f
 
 dynamic\_cast\(expression\)
 
-The target type must be a pointer or reference type, and the expression must evaluate to a pointer or reference. Dynamic cast works only when the type of object to which the expression refers is compatible with the target type and the base class has at least one virtual member function. If not, and the type of expression being cast is a pointer, NULL is returned, if a dynamic cast on a reference fails, a bad\_cast exception is thrown. When it doesn't fail, dynamic cast returns a pointer or reference of the target type to the object to which expression referred.
+The target type must be a pointer or reference type, and the expression must evaluate to a pointer or reference. Dynamic cast works only when the type of object to which the expression refers is compatible with the target type and the base class has at least one virtual member function. If not, and the type of expression being cast is a pointer, __NULL__ is returned, if a dynamic cast on a reference fails, __a bad\_cast exception is thrown__. When it doesn't fail, dynamic cast returns a pointer or reference of the target type to the object to which expression referred.
 
 reinterpret\_cast
 
