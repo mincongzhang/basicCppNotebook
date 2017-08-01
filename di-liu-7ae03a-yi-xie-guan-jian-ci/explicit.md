@@ -1,6 +1,16 @@
+
+
 the`explicit`-keyword in front of the constructor`C(void)`tells the compiler that only explicit call to this constructor is allowed.
 
+class String {
+public:
+    explicit String (int n); //allocate n bytes
+    String(const char *p); // initialize object with string p
+};
+
 The`explicit`-keyword can also be used in user-defined type cast operators
+
+
 
 
 
