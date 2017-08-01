@@ -9,6 +9,7 @@
   * [内联函数和重载函数\(完成\)](内联函数和重载函数.md)
   * [字符串和char\(完成\)](字符串.md)
   * [Const\(完成\)](constwan-621029.md)
+    * logically const vs bitwise const
   * [Casting\(完成\)](casting.md)
     * [const\_cast](casting/constcast.md)
   * [Exception\(完成\)](exceptionwan-621029.md)
@@ -52,8 +53,8 @@
   * Mutable
   * [Explicit](di-liu-7ae03a-yi-xie-guan-jian-ci/explicit.md)
   * [placement\_new](di-liu-7ae03a-yi-xie-guan-jian-ci/placementnew.md)
-  * [RTTI\(Run-time type information\)](di-liu-7ae03a-yi-xie-guan-jian-ci/rtti.md)
   * volatile
+  * [RTTI\(Run-time type information\)](di-liu-7ae03a-yi-xie-guan-jian-ci/rtti.md)
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
