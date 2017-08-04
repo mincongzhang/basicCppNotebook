@@ -58,6 +58,7 @@
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
+  * [linux debug](debug/linux-debug.md)
 * [MISC](misc.md)
   * [DesignPattern](misc/designpattern.md)
   * [Multithreading](misc/multithreading.md)
