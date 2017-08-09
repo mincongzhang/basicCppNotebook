@@ -48,8 +48,8 @@
   * [SOLID: Dependency inversion principle](design-pattern/solid-dependency-inversion-principle.md)
   * [Singleton pattern](design-pattern/singleton-pattern.md)
   * [Factory method pattern](design-pattern/factory-method-pattern.md)
-  * [KISS principle](design-pattern/kiss-principle.md)
   * [Adapter pattern](design-pattern/adapter-pattern.md)
+  * [KISS principle](design-pattern/kiss-principle.md)
 * [第六章: 一些关键词](di-liu-7ae03a-yi-xie-guan-jian-ci.md)
   * Mutable
   * [Explicit](di-liu-7ae03a-yi-xie-guan-jian-ci/explicit.md)
