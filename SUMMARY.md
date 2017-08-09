@@ -56,6 +56,7 @@
   * [placement\_new](di-liu-7ae03a-yi-xie-guan-jian-ci/placementnew.md)
   * volatile
   * [RTTI\(Run-time type information\)](di-liu-7ae03a-yi-xie-guan-jian-ci/rtti.md)
+  * function hiding
 * [Debug](debug.md)
   * [gdb](debug/gdb.md)
   * [valgrind](debug/valgrind.md)
