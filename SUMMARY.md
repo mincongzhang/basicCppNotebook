@@ -78,4 +78,5 @@
   * [For Range Loop](for-range-loop.md)
     * [What is the correct way of using C++11's range-based for?](for-range-loop/what-is-the-correct-way-of-using-c++11s-range-based-for.md)
   * [Sink parameters and Exceptions](sink-parameters-and-exceptions.md)
+  * move constructor
 
