@@ -80,4 +80,5 @@
     * [rvalue](for-range-loop/rvalue.md)
   * [Sink parameters and Exceptions](sink-parameters-and-exceptions.md)
   * move constructor
+  * [Atomic](atomic.md)
 
