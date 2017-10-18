@@ -81,4 +81,5 @@
   * [Sink parameters and Exceptions](sink-parameters-and-exceptions.md)
   * [move constructor](move-constructor.md)
   * [Atomic](atomic.md)
+  * [lambda](lambda.md)
 
