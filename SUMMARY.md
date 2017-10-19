@@ -82,7 +82,7 @@
   * [move constructor](move-constructor.md)
   * [Atomic](atomic.md)
   * [lambda](lambda.md)
-  * [move](move.md)
+  * [std::move](move.md)
   * make\_shared
   * [lvalue vs rvalue](lvalue-vs-rvalue.md)
   * rvalue reference
