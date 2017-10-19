@@ -83,7 +83,7 @@
   * [Atomic](atomic.md)
   * [lambda](lambda.md)
   * [std::move](move.md)
-  * make\_shared
+  * [make\_shared](makeshared.md)
   * [lvalue vs rvalue](lvalue-vs-rvalue.md)
   * rvalue reference
   * [transform](transform.md)
