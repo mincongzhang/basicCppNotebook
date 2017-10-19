@@ -84,4 +84,5 @@
   * [lambda](lambda.md)
   * [move](move.md)
   * make\_shared
+  * [lvalue vs rvalue](lvalue-vs-rvalue.md)
 
