@@ -82,6 +82,6 @@
   * [move constructor](move-constructor.md)
   * [Atomic](atomic.md)
   * [lambda](lambda.md)
-  * move
+  * [move](move.md)
   * make\_shared
 
