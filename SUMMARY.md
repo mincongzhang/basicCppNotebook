@@ -85,4 +85,5 @@
   * [move](move.md)
   * make\_shared
   * [lvalue vs rvalue](lvalue-vs-rvalue.md)
+  * rvalue reference
 
