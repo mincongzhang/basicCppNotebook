@@ -8,3 +8,5 @@ ISP is intended to keep a system **decoupled **and thus easier to refactor, chan
 
 ![](/assets/interface_segregation.png)
 
+#### Chinese ver
+http://blog.csdn.net/yunhua_lee/article/details/27698945
