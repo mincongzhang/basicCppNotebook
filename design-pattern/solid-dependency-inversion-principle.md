@@ -7,3 +7,7 @@ Whatever level you are \(high/low\), you should have abstractions and have inter
 
 ![](/assets/dependence_invariance.png)
 
+
+#### Chinese ver
+http://blog.csdn.net/yunhua_lee/article/details/30749311
+
