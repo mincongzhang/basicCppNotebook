@@ -6,3 +6,7 @@ a class should have only a single responsibility \(i.e. only one potential chang
 
 ![](/assets/single_responsbility.png)
 
+
+#### Chinese ver
+http://blog.csdn.net/yunhua_lee/article/details/25279539
+
