@@ -14,3 +14,7 @@ A typical example that violates LSP is a **Square class** that derives from a **
 
 ![](/assets/liskov.png)
 
+
+#### Chinese ver
+http://blog.csdn.net/yunhua_lee/article/details/26807601
+
