@@ -17,5 +17,6 @@ A class is closed, since it may be compiled, stored in a library, baselined, and
 ![](/assets/open_close.png)
 
 
-#### Chinese verhttp://blog.csdn.net/yunhua_lee/article/details/25772449
+#### Chinese ver
+http://blog.csdn.net/yunhua_lee/article/details/25772449
 
