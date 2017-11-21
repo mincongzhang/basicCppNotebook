@@ -1,6 +1,6 @@
 
 
-the`explicit`-keyword in front of the *constructor* `C(void)`tells the compiler that only explicit call to this constructor is allowed.
+the`explicit`-keyword in front of the __constructor__ `C(void)`tells the compiler that only explicit call to this constructor is allowed.
 
 ```
 class String {
